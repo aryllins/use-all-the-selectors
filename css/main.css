@@ -18,6 +18,41 @@ nav > ul {
   text-transform: uppercase;
 }
 
+h2 {
+  color: #93a1a1;
+}
+
 wrapper {
   background-color: #eee8d5;
 }
+ .dfn + strong {
+   color: #fff;
+ }
+
+ html nav li mark {
+   background-color: #719e07;
+ }
+
+ a[rel="external"] {
+   background-color: #2694d8;
+ }
+
+ ol li:first-child {
+   color: #719e47;
+ }
+
+ ul li:first-child {
+   color: #719e47;
+ }
+
+ .types li:nth-child(odd) {
+   background-color: #657ba3;
+ }
+
+ .types li:nth-child(even) {
+   background-color: #586e75;
+ }
+
+ .types li:nth-child(3) {
+   background-color: #d04b16;
+ }
